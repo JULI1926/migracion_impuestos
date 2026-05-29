@@ -1,0 +1,66 @@
+============================== 
+Inicio: 12/12/2025 12:08:20.08 
+Ejecutando procesamiento de RUTs... 
+
+Archivo: AGROINDUSTRIA.pdf
+NIT: 900962799
+Nombre: AGROINDUSTRIA AVANADE SAS
+Responsabilidades: 05 07 13 14 23 48 52
+---------------------------------------------
+Procesado: AGROINDUSTRIA.pdf
+
+Archivo: AGROINDUSTRIAL SAN JOSE.pdf
+NIT: 800035120
+Nombre: AGROINDUSTRIAL SAN JOSE S.A. "AGRINSA"
+Responsabilidades: 03 19 05 42 07 48 08 52 09 10 14
+---------------------------------------------
+Procesado: AGROINDUSTRIAL SAN JOSE.pdf
+
+Archivo: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P..pdf
+NIT: 901122927
+Nombre: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P.
+Responsabilidades: 05 07 09 14 42 48 52
+---------------------------------------------
+Procesado: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P..pdf
+Procesamiento finalizado. Ejecutando envio de correos... 
+Gran Contribuyentes: 1 registros encontrados
+Personas Jurídicas: 2 registros encontrados
+IVA: 3 registros encontrados
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Impuestos\migracion_impuestos\envio_correo.py", line 155, in <module>
+    enviar_correos_por_contribuyente()
+  File "C:\Users\Usuario\Documents\Impuestos\migracion_impuestos\envio_correo.py", line 140, in enviar_correos_por_contribuyente
+    print(f"Enviado a: {nombre} ({rut}) \u2192 {correo}")
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 67: character maps to <undefined>
+Fin: 12/12/2025 12:08:38.74 
+ 
+============================== 
+Inicio: 12/12/2025 12:22:38.96 
+Ejecutando procesamiento de RUTs... 
+
+Archivo: AGROINDUSTRIA.pdf
+NIT: 900962799
+Nombre: AGROINDUSTRIA AVANADE SAS
+Responsabilidades: 05 07 13 14 23 48 52
+---------------------------------------------
+Procesado: AGROINDUSTRIA.pdf
+
+Archivo: AGROINDUSTRIAL SAN JOSE.pdf
+NIT: 800035120
+Nombre: AGROINDUSTRIAL SAN JOSE S.A. "AGRINSA"
+Responsabilidades: 03 19 05 42 07 48 08 52 09 10 14
+---------------------------------------------
+Procesado: AGROINDUSTRIAL SAN JOSE.pdf
+
+Archivo: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P..pdf
+NIT: 901122927
+Nombre: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P.
+Responsabilidades: 05 07 09 14 42 48 52
+---------------------------------------------
+Procesado: AGUAS DE LA PROSPERIDAD S.A.S., E.S.P..pdf
+Procesamiento finalizado. Ejecutando envio de correos... 
+Fin: 12/12/2025 12:22:51.96 
+ 
