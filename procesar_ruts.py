@@ -7,9 +7,10 @@ from datetime import datetime
 
 
 _HOME        = os.path.expanduser("~")
-RUTA_ENTRADA = os.path.join(_HOME, r"Documents\Impuestos\Archivos_impuestos\RUTS-Nuevos")
-RUTA_SALIDA  = os.path.join(_HOME, r"Documents\Impuestos\Archivos_impuestos\RUTS")
-RUTA_LOGS    = os.path.join(_HOME, r"Documents\Impuestos\Archivos_impuestos\Logs")
+DATA_BASE    = os.path.join(_HOME, r"Documents\Impuestos")
+RUTA_ENTRADA = os.path.join(DATA_BASE, r"Archivos_impuestos\RUTS-Nuevos")
+RUTA_SALIDA  = os.path.join(DATA_BASE, r"Archivos_impuestos\RUTS")
+RUTA_LOGS    = os.path.join(DATA_BASE, r"Archivos_impuestos\Logs")
 
 db_config = {
     'host': '40.121.222.132',

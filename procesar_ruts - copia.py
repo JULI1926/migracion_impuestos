@@ -6,9 +6,11 @@ import shutil
 from datetime import datetime
 
 
-RUTA_ENTRADA = r"C:\Users\Usuario\Documents\Impuestos\Archivos_impuestos\RUTS-Nuevos"
-RUTA_SALIDA = r"C:\Users\Usuario\Documents\Impuestos\Archivos_impuestos\RUTS"
-RUTA_LOGS = r"C:\Users\Usuario\Documents\Impuestos\Archivos_impuestos\Logs"
+_HOME = os.path.expanduser("~")
+DATA_BASE = os.path.join(_HOME, r"Documents\Impuestos")
+RUTA_ENTRADA = os.path.join(DATA_BASE, r"Archivos_impuestos\RUTS-Nuevos")
+RUTA_SALIDA = os.path.join(DATA_BASE, r"Archivos_impuestos\RUTS")
+RUTA_LOGS = os.path.join(DATA_BASE, r"Archivos_impuestos\Logs")
 
 db_config = {
     'host': '40.121.222.132',
